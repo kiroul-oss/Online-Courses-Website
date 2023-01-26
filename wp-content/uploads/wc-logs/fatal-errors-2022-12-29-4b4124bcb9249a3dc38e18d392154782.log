@@ -1,0 +1,72 @@
+2022-12-29T20:14:10+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_payment_url() on bool in C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\woo-accept\helpers\admin-helper.php:419
+Stack trace:
+#0 C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\woo-accept\gateways\online.php(166): AdminHelper::callback('C57C8AB4C483538...')
+#1 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(308): WC_Gateway_Accept_Online->callback('')
+#2 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\beginning\online-courses\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\woocommerce\includes\class-wc-api.php(161): do_action('woocommerce_api...')
+#5 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(308): WC_API->handle_api_requests(Object(WP))
+#6 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\beginning\online-courses\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp.php(780): WP->parse_request('')
+#10 C:\xampp\htdocs\beginning\online-courses\wp-includes\functions.php(1332): WP->main('')
+#11 C:\xampp\htdocs\beginning\online-courses\wp-blog-header.php(16): wp()
+#12 C:\xampp\htdocs\beginning\online-courses\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\woo-accept\helpers\admin-helper.php on line 419
+
+2022-12-29T20:18:28+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_payment_url() on bool in C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\woo-accept\helpers\admin-helper.php:419
+Stack trace:
+#0 C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\woo-accept\gateways\online.php(166): AdminHelper::callback('C57C8AB4C483538...')
+#1 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(308): WC_Gateway_Accept_Online->callback('')
+#2 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\beginning\online-courses\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\woocommerce\includes\class-wc-api.php(161): do_action('woocommerce_api...')
+#5 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(308): WC_API->handle_api_requests(Object(WP))
+#6 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\beginning\online-courses\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp.php(780): WP->parse_request('')
+#10 C:\xampp\htdocs\beginning\online-courses\wp-includes\functions.php(1332): WP->main('')
+#11 C:\xampp\htdocs\beginning\online-courses\wp-blog-header.php(16): wp()
+#12 C:\xampp\htdocs\beginning\online-courses\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\woo-accept\helpers\admin-helper.php on line 419
+
+2022-12-29T20:21:50+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_payment_url() on bool in C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\woo-accept\helpers\admin-helper.php:419
+Stack trace:
+#0 C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\woo-accept\gateways\online.php(166): AdminHelper::callback('C57C8AB4C483538...')
+#1 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(308): WC_Gateway_Accept_Online->callback('')
+#2 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\beginning\online-courses\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\woocommerce\includes\class-wc-api.php(161): do_action('woocommerce_api...')
+#5 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(308): WC_API->handle_api_requests(Object(WP))
+#6 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\beginning\online-courses\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp.php(780): WP->parse_request('')
+#10 C:\xampp\htdocs\beginning\online-courses\wp-includes\functions.php(1332): WP->main('')
+#11 C:\xampp\htdocs\beginning\online-courses\wp-blog-header.php(16): wp()
+#12 C:\xampp\htdocs\beginning\online-courses\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\woo-accept\helpers\admin-helper.php on line 419
+
+2022-12-29T20:22:29+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_payment_url() on bool in C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\woo-accept\helpers\admin-helper.php:419
+Stack trace:
+#0 C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\woo-accept\gateways\online.php(166): AdminHelper::callback('C57C8AB4C483538...')
+#1 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(308): WC_Gateway_Accept_Online->callback('')
+#2 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\beginning\online-courses\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\woocommerce\includes\class-wc-api.php(161): do_action('woocommerce_api...')
+#5 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(308): WC_API->handle_api_requests(Object(WP))
+#6 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\beginning\online-courses\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp.php(780): WP->parse_request('')
+#10 C:\xampp\htdocs\beginning\online-courses\wp-includes\functions.php(1332): WP->main('')
+#11 C:\xampp\htdocs\beginning\online-courses\wp-blog-header.php(16): wp()
+#12 C:\xampp\htdocs\beginning\online-courses\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\woo-accept\helpers\admin-helper.php on line 419
+

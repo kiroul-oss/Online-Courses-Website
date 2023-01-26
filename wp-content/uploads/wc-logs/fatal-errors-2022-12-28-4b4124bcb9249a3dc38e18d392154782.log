@@ -1,0 +1,9 @@
+2022-12-28T15:37:38+00:00 CRITICAL Uncaught Error: Call to undefined function TUTORMATE\tutor_log() in C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\tutormate\inc\MediaDownloader.php:292
+Stack trace:
+#0 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(308): TUTORMATE\MediaDownloader->download_attachment('')
+#1 C:\xampp\htdocs\beginning\online-courses\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\beginning\online-courses\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\beginning\online-courses\wp-admin\admin-ajax.php(188): do_action('wp_ajax_tutorma...')
+#4 {main}
+  thrown in C:\xampp\htdocs\beginning\online-courses\wp-content\plugins\tutormate\inc\MediaDownloader.php on line 292
+
